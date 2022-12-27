@@ -43,7 +43,7 @@
   background: url(../img/dog_catching_snack.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   /* logo for small display size */
   /* header text for small display size */
@@ -66,7 +66,7 @@
   color: #DF8480;
 }
 
-.sectionTitleSmall {
+.sectionTitle {
   width: 100vw;
   text-align: center;
   padding: 1rem;
@@ -80,10 +80,9 @@
   padding: 1rem;
 }
 .mainTextContainer div {
-  display: flex;
-  align-items: baseline;
   margin-bottom: 2rem;
   font-family: "nunito";
+  text-align: center;
 }
 .mainTextContainer .order1 {
   font-size: 2rem;
@@ -102,4 +101,18 @@
   margin-right: 0.5rem;
   color: #DF8480;
   font-weight: bold;
+}
+
+.menuImg {
+  width: 100vw;
+}
+
+.menuSection {
+  background: url(../img/dog_bowl.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15.2rem;
+}
+.menuSection p {
+  display: inline;
 }/*# sourceMappingURL=style.css.map */

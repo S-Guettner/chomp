@@ -315,5 +315,43 @@ footer{
                                         width: 9rem;
                                     }
                                 }
+                                
+                                .mainLargeContainer{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    
+
+                                    .menuSection{
+                                        width: 33.3vw;
+                                        padding: 4rem;
+
+                                            .delicious{
+                                                left: 23rem;
+                                            }
+
+                                                .locallySourced{
+                                                    right: 10rem;
+                                                }
+                                    }
+
+                                        .menuText{
+                                            width: 20vw;
+                                            background-color: #DF8480;
+                                            padding-right: 2rem;
+                                            margin-right: 5rem;
+                                            text-align: center;
+                                            padding-top: 5rem;
+                                            padding-left: 1rem;
+                                            color: white;
+                                            border-radius: 20px;
+
+                                        }
+
+                                            .menuImg{
+                                                width: 33.3vw;
+                                                border-radius: 20px;
+                                                margin-left: 3rem;
+                                            }
+                                }
 
 }

@@ -294,4 +294,34 @@ footer button {
     padding: 0.5rem;
     width: 9rem;
   }
+  .mainLargeContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainLargeContainer .menuSection {
+    width: 33.3vw;
+    padding: 4rem;
+  }
+  .mainLargeContainer .menuSection .delicious {
+    left: 23rem;
+  }
+  .mainLargeContainer .menuSection .locallySourced {
+    right: 10rem;
+  }
+  .mainLargeContainer .menuText {
+    width: 20vw;
+    background-color: #DF8480;
+    padding-right: 2rem;
+    margin-right: 5rem;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    color: white;
+    border-radius: 20px;
+  }
+  .mainLargeContainer .menuImg {
+    width: 33.3vw;
+    border-radius: 20px;
+    margin-left: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

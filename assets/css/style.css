@@ -20,13 +20,18 @@
     font-weight: 600;
 }
 
-
 .logo{
     width: 3rem;
     margin: auto auto;
 }
 
+
+
 @media (max-width:600px ) {
+    
+    body{
+        overflow-x: hidden;
+    }
     header{
         background: url(../img/dog_catching_snack.jpg);
         background-size: cover;
@@ -95,9 +100,13 @@
         margin: auto auto;
         padding-top: 2rem;
     }
+    .whatsOnTheMenuContainer img{
+        width: 12rem;
+        height: 13rem;
+    }
     .delicious{
         position: relative;
-        right: 2.5rem;
+        right: 2rem;
         top: 5rem;
     }
     .locally{
@@ -123,7 +132,7 @@
     }
     .footerText{
         text-align: center;
-        width: 20rem;
+        width: 10rem;
         margin: auto auto;
         padding: 1rem;
         color: white;
@@ -135,7 +144,7 @@
         padding: 0.5rem;
         border-radius: 15px;
         margin-bottom: 0.75rem;
-        width: 20rem;
+        width: 10rem;
         border: 1px solid white;
         font-family: "nunito";
     }
@@ -143,9 +152,10 @@
         color: black;
     }
     footer button{
-        padding-left: 9rem;
-        padding-right: 9rem;
-        margin-left: 1.75rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-left: 29vw;
+        margin-right: auto;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         border-radius: 15px;
@@ -173,7 +183,7 @@
 
 }
 
-@media (max-width:900px) {
+@media (min-width:900px) {
     
 }
 

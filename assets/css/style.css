@@ -200,6 +200,10 @@ footer button {
 }
 
 @media (min-width: 601px) {
+  /* ==========overflow========== */
+  body {
+    overflow-x: hidden;
+  }
   .headerLogoSectionSmall {
     background: url(../img/dog_catching_snack-shorter.jpg);
     width: 100vw;
@@ -235,6 +239,10 @@ footer button {
   }
 }
 @media (min-width: 900px) {
+  /* ==========overflow========== */
+  body {
+    overflow-x: hidden;
+  }
   .headerLogoSectionLarge {
     display: block;
     padding: 1rem;

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"nunito" ;
+    src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family:"rock" ;
+    src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+.nunitoFont{
+    font-family: "nunito";
+}
+.rockFont{
+    font-family: "rock";
+    font-weight: 600;
+}
+
+/* logo for larger display size */
+.logoLarge{
+    display:none;
+}
+.logoSectionLarge{
+    display:none;
+}
+/* header for larger display size */
+.headerLogoSectionLarge{
+    display: none;
+}
+
+.sectionTitleLarge{
+    display: none;
+}
+
+
+.headerLogoSectionSmall{
+    background: url(../img/dog_catching_snack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    
+    /* logo for small display size */
+        .logoSmall{
+        width: 4rem;
+        margin:auto;
+        padding-top:1rem;
+        margin-bottom: 2rem;
+        font-family: "rock";
+        font-weight: 600;
+        }
+
+        /* header text for small display size */    
+            .headerTextSectionSmall{
+                width: 10rem;
+                text-align: right;
+                margin-left: auto;
+                padding-right: 0.75rem;
+                font-family: "nunito";
+                font-size: 1.1rem;
+                color:#DF8480;
+            }
+}
+.sectionTitleSmall{
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    background-color: #DF8480;
+    color: white;
+    font-family: "nunito";
+    font-size: 1.2rem;
+}
+.mainTextContainer{
+    padding: 1rem;
+
+        div{
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 2rem;
+            font-family: "nunito";
+            }
+                .order1{
+                font-size: 2rem;
+                margin-right: 0.5rem;
+                color: #DF8480;
+                font-weight: bold;
+                }
+                .order2{
+                font-size: 2rem;
+                margin-right: 0.5rem;
+                color: #DF8480;
+                font-weight: bold;
+                }
+                .order3{
+                font-size: 2rem;
+                margin-right: 0.5rem;
+                color: #DF8480;
+                font-weight: bold;
+                }
+}
+
+
+

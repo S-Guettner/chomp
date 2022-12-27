@@ -1,197 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family:"nunito" ;
-    src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
+  font-family: "nunito";
+  src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
 }
 @font-face {
-    font-family:"rock" ;
-    src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+  font-family: "rock";
+  src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+.nunitoFont {
+  font-family: "nunito";
 }
 
-.nunitoFont{
-    font-family: "nunito";
-}
-.rockFont{
-    font-family: "rock";
-    font-weight: 600;
+.rockFont {
+  font-family: "rock";
+  font-weight: 600;
 }
 
-.logo{
-    width: 3rem;
-    margin: auto auto;
+/* logo for larger display size */
+.logoLarge {
+  display: none;
 }
 
-
-
-@media (max-width:600px ) {
-    
-    body{
-        overflow-x: hidden;
-    }
-    header{
-        background: url(../img/dog_catching_snack.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height:70vh;
-        width: 100vw;
-        padding-top: 1rem;
-    }
-    .headerText{
-        padding-top: 2rem;
-        text-align: right;
-        width: 8.5rem;
-        margin-left: auto;
-        padding-right: 1rem;
-        color:#DF8480 ;
-    }
-    .sectionTitle{
-        padding: 1.5rem;
-        width: 6rem;
-        margin: auto auto;
-        display: block;
-        text-align: center;
-    }
-    .sectionTitleContainer{
-        background-color:#DF8480;
-        /* margin-bottom: 1rem; */
-    }
-    .contentContainer{
-        text-align: center;
-    }
-    .contentContainer p{
-        margin-bottom: 1rem;
-        padding-top: 1rem;
-    }
-    .contenOrder1{
-        color: #DF8480;
-        font-size: 2rem;
-    }
-    .contenOrder2{
-        color: #DF8480;
-        font-size: 2rem;
-    }
-    .contenOrder3{
-        color: #DF8480;
-        font-size: 2rem;
-    }
-    
-    .sectionTitleMenu{
-        text-align: center;
-        padding: 1.5rem;
-    }
-    img:nth-of-type(1){
-        width: 100%;
-        height: 25vh;
-    }
-    .whatsOnTheMenuContainer{
-        /* background: url(../img/dog_bowl.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; */
-    }
-    .whatsOnTheMenuContainer{
-        display: flex;
-        width:15rem ;
-        height: 2.5em;
-        margin: auto auto;
-        padding-top: 2rem;
-    }
-    .whatsOnTheMenuContainer img{
-        width: 12rem;
-        height: 13rem;
-    }
-    .delicious{
-        position: relative;
-        right: 2rem;
-        top: 5rem;
-    }
-    .locally{
-        position: relative;
-        right:18rem
-    }
-    .organic{
-        position: relative;
-        right: 22rem;
-        top: 12rem;
-    }
-    .menuText{
-        position:relative;
-        top: 16rem;
-        text-align: center;
-        max-width: 20rem;
-        margin: auto auto;
-    }
-    footer{
-        position: relative;
-        top: 18rem;
-        background-color:black;
-    }
-    .footerText{
-        text-align: center;
-        width: 10rem;
-        margin: auto auto;
-        padding: 1rem;
-        color: white;
-    }
-    footer input{
-        display: block;
-        text-align: center;
-        margin: auto auto;
-        padding: 0.5rem;
-        border-radius: 15px;
-        margin-bottom: 0.75rem;
-        width: 10rem;
-        border: 1px solid white;
-        font-family: "nunito";
-    }
-    footer input::placeholder{
-        color: black;
-    }
-    footer button{
-        padding-left: 4rem;
-        padding-right: 4rem;
-        margin-left: 29vw;
-        margin-right: auto;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        border-radius: 15px;
-        background-color: #DF8480;
-        color: white;
-        border: 1px solid #DF8480;
-        margin-bottom: 5rem;
-    }
-    .socialContainer{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .socialContainer img{
-        width: 4rem;
-        height: 4rem;
-        margin-bottom: 2rem;
-    }
-    .impressum{
-        color: white;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-
-
+.logoSectionLarge {
+  display: none;
 }
 
-@media (min-width:900px) {
-    
+/* header for larger display size */
+.headerLogoSectionLarge {
+  display: none;
 }
 
-@media (max-width:1200px) { 
-    
+.sectionTitleLarge {
+  display: none;
 }
 
-@media (min-width:1201px) { 
-    
+.headerLogoSectionSmall {
+  background: url(../img/dog_catching_snack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  /* logo for small display size */
+  /* header text for small display size */
+}
+.headerLogoSectionSmall .logoSmall {
+  width: 4rem;
+  margin: auto;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: "rock";
+  font-weight: 600;
+}
+.headerLogoSectionSmall .headerTextSectionSmall {
+  width: 10rem;
+  text-align: right;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  font-family: "nunito";
+  font-size: 1.1rem;
+  color: #DF8480;
 }
 
+.sectionTitleSmall {
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
+  background-color: #DF8480;
+  color: white;
+  font-family: "nunito";
+  font-size: 1.2rem;
+}
+
+.mainTextContainer {
+  padding: 1rem;
+}
+.mainTextContainer div {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 2rem;
+  font-family: "nunito";
+}
+.mainTextContainer .order1 {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #DF8480;
+  font-weight: bold;
+}
+.mainTextContainer .order2 {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #DF8480;
+  font-weight: bold;
+}
+.mainTextContainer .order3 {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #DF8480;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

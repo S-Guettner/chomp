@@ -105,6 +105,7 @@
 
 .menuImg {
   width: 100vw;
+  margin-bottom: 2rem;
 }
 
 .menuSection {
@@ -112,7 +113,29 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 15.2rem;
+  margin-bottom: 2rem;
 }
 .menuSection p {
   display: inline;
+  font-family: "nunito";
+  font-size: 1.2rem;
+}
+.menuSection .delicious {
+  position: relative;
+  top: 6rem;
+  left: 19rem;
+}
+.menuSection .organic {
+  position: relative;
+  top: 12rem;
+}
+.menuSection .locallySourced {
+  position: relative;
+  right: 3rem;
+}
+
+.menuText {
+  font-family: "nunito";
+  font-size: 1.2rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

@@ -122,7 +122,7 @@
             .delicious{
                 position: relative;
                 top: 6rem;
-                left: 19rem;
+                left: 15rem;
             }
                 .organic{
                     position: relative;
@@ -186,5 +186,50 @@ footer{
     font-family: "nunito";
     text-align: center;
     padding-bottom: 2rem;
+}
+
+@media (min-width:601px) {
+    
+    .headerLogoSectionSmall{
+        background: url(../img/dog_catching_snack-shorter.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+        .mainTextContainer div{
+            display: flex;
+            align-items: baseline;
+        }
+
+            .menuContainer{
+                display: flex;
+
+                img{
+                    width: 50%;
+                }
+            }
+
+                .menuSection{
+                    width: 50%;
+
+                    .delicious{
+                        left: 13rem;
+                    }
+                }
+
+                    .footerBottom{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: baseline;
+
+                            .impressum{
+                                padding-right: 2rem;
+                            }
+                    }
+                        
+                        .socialContainer{
+                            width: 15rem;
+                        }
 }
 

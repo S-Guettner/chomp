@@ -39,6 +39,17 @@
   display: none;
 }
 
+.headerTextSectionLarge {
+  display: none;
+}
+
+.headerImageSectionLarge {
+  background: url(../img/dog_catching_snack-shorter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
 .headerLogoSectionSmall {
   background: url(../img/dog_catching_snack.jpg);
   background-size: cover;
@@ -221,5 +232,48 @@ footer button {
   }
   .socialContainer {
     width: 15rem;
+  }
+}
+@media (min-width: 900px) {
+  .headerLogoSectionLarge {
+    display: block;
+    padding: 1rem;
+  }
+  .logoLarge {
+    display: block;
+    text-align: center;
+    font-family: "rock";
+    font-weight: bold;
+  }
+  .logoSmall {
+    display: none;
+  }
+  .headerTextSectionSmall {
+    display: none;
+  }
+  .headerLogoSectionSmall {
+    display: none;
+  }
+  .headerSectionLarge {
+    display: flex;
+  }
+  .headerTextSectionLarge {
+    display: block;
+    width: 50vw;
+    text-align: end;
+    background-color: #DF8480;
+    color: white;
+    font-family: "nunito";
+  }
+  .headerTextSectionLarge p {
+    font-size: 3rem;
+    width: 40rem;
+    padding-left: 30rem;
+    padding-top: 5rem;
+  }
+  .headerImageSectionLarge {
+    display: block;
+    width: 50vw;
+    height: 100vh;
   }
 }/*# sourceMappingURL=style.css.map */

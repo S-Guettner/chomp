@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 3rem;
+    margin: auto auto;
+}
+
+@media (max-width:600px ) {
+    header{
+        background: url(../img/dog_catching_snack.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:70vh;
+        width: 100vw;
+        padding-top: 1rem;
+    }
+    .headerText{
+        padding-top: 2rem;
+        text-align: right;
+        width: 8rem;
+        margin-left: auto;
+        padding-right: 1rem;
+        color:#DF8480 ;
+    }
+    .sectionTitle{
+        padding: 1.5rem;
+        width: 6rem;
+        margin: auto auto;
+        display: block;
+        text-align: center;
+    }
+    .sectionTitleContainer{
+        background-color:#DF8480;
+        /* margin-bottom: 1rem; */
+    }
+    .contentContainer{
+        text-align: center;
+    }
+    .contentContainer p{
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .sectionTitleMenu{
+        text-align: center;
+        padding: 1.5rem;
+    }
+    img:nth-of-type(1){
+        width: 100%;
+        height: 30vh;
+    }
+    .whatsOnTheMenuContainer{
+        /* background: url(../img/dog_bowl.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; */
+    }
+    .whatsOnTheMenuContainer{
+        display: flex;
+        width:15rem ;
+        height: 2.5em;
+        margin: auto auto;
+        padding-top: 2rem;
+    }
+    .delicious{
+        position: relative;
+        right: 2.5rem;
+        top: 5rem;
+    }
+    .locally{
+        position: relative;
+        right:18rem
+    }
+    .organic{
+        position: relative;
+        right: 22rem;
+        top: 13rem;
+    }
+    .menuText{
+        position:relative;
+        top: 16rem;
+        text-align: center;
+        max-width: 20rem;
+        margin: auto auto;
+    }
+    footer{
+        position: relative;
+        top: 18rem;
+        background-color:black;
+    }
+    .footerText{
+        text-align: center;
+        width: 20rem;
+        margin: auto auto;
+        padding: 1rem;
+        color: white;
+    }
+    footer input{
+        display: block;
+        text-align: center;
+        margin: auto auto;
+        padding: 0.5rem;
+        border-radius: 15px;
+        margin-bottom: 0.75rem;
+        width: 20rem;
+        border: 1px solid white;
+    }
+    footer input::placeholder{
+        color: black;
+    }
+    footer button{
+        padding-left: 9rem;
+        padding-right: 9rem;
+        margin-left: 1.75rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 15px;
+        background-color: #DF8480;
+        color: white;
+        border: 1px solid #DF8480;
+        margin-bottom: 5rem;
+    }
+    .socialContainer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .socialContainer img{
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 2rem;
+    }
+    .impressum{
+        color: white;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+
+
+}
+
+@media (max-width:900px) {
+    
+}
+
+@media (max-width:1200px) { 
+    
+}
+
+@media (min-width:1201px) { 
+    
+}
+

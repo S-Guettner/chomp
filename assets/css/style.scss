@@ -355,3 +355,18 @@ footer{
                                 }
 
 }
+
+@media (min-width:1200px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    .mainTextContainer{
+        div{
+            width: 11rem;
+        }
+    }
+}
+
+
+/* ==========overflow finden !!!!!!!!========== */

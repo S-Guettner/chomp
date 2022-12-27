@@ -324,4 +324,13 @@ footer button {
     border-radius: 20px;
     margin-left: 3rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+@media (min-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mainTextContainer div {
+    width: 11rem;
+  }
+}
+/* ==========overflow finden !!!!!!!!========== *//*# sourceMappingURL=style.css.map */
